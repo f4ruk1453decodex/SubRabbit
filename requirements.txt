@@ -1,4 +1,3 @@
-requests
+socket
 colorama
 pystyle
-fake_useragent
