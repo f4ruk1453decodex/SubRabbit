@@ -1,26 +1,53 @@
-# SubRabbit - Subdomain Scanner
+📄 README (İngilizce)
+🐰 SubRabbit - Subdomain Scanner
 
-SubRabbit is a fast and efficient subdomain scanner designed to help security researchers and penetration testers discover subdomains of a target domain. With this tool, you can scan a single domain or a list of domains in parallel to quickly identify subdomains.
+SubRabbit is a fast subdomain scanner designed for security researchers and penetration testers. It helps in discovering subdomains of a given target domain efficiently. Whether you’re scanning a single domain or multiple domains, SubRabbit ensures fast scanning using DNS requests.
+✨ Features:
 
-## Features:
-- Scan a single domain or a list of domains.
-- Utilizes threading to speed up the scanning process.
-- Detects subdomains using DNS requests.
-- Fast and lightweight for large-scale scans.
+    🌐 Scan a single domain or a list of domains.
 
-## Requirements:
-- Python 3.x
-- `requests` library
-- `argparse` library
-- `colorama` library
-- `pystyle` library
-- `fake_useragent` library
-- `multiprocessing.dummy` library
+    ⚡ Threading for faster subdomain discovery.
 
-### Installation:
+    🚀 Fast DNS-based scanning.
 
-1. Clone or download this repository.
-2. Install the necessary dependencies:
+    📁 Results saved to a file.
 
-```bash
-pip install requests colorama pystyle fake_useragent
+💻 Requirements:
+
+    Python 3.x
+
+    requests library
+
+    colorama library
+
+    pystyle library
+
+    fake_useragent library
+
+    multiprocessing.dummy library
+
+🛠️ Installation:
+
+    Clone or download this repository.
+
+    Install the necessary dependencies:
+
+pip install -r requirements.txt
+
+    Download rabbit.png and place it in the same directory as the script.
+
+🏃 Usage:
+
+To scan a target domain:
+
+python subrabbit.py -t <target-domain>
+
+To scan a list of domains:
+
+python subrabbit.py -t <domain1> <domain2> <domain3> ...
+
+⚡ Example:
+
+python subrabbit.py -t example.com
+
+The results will be saved in a file called found_example.com.txt.
