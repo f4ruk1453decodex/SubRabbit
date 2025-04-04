@@ -7,39 +7,19 @@
 - 🚀 Fast DNS-based scanning.
 - 📁 Results saved to a file.
 
-💻 Requirements:
+### 🛠️ Installation:
 
-    Python 3.x
+1. Clone or download this repository.
+2. Install the necessary dependencies:
 
-    requests library
-
-    colorama library
-
-    pystyle library
-
-    fake_useragent library
-
-    multiprocessing.dummy library
-
-🛠️ Installation:
-
-    Clone or download this repository.
-
-    Install the necessary dependencies:
-
+```bash
 pip install -r requirements.txt
-
-    Download rabbit.png and place it in the same directory as the script.
-
-🏃 Usage:
-
-To scan a target domain:
-
-python subrabbit.py -t <target-domain>
-
-To scan a list of domains:
-
-python subrabbit.py -t <domain1> <domain2> <domain3> ...
+```
+### 🏃 Usage:
+- To scan a target domain:
+```python subrabbit.py -t <target-domain>```
+- To scan a list of domains:
+```python subrabbit.py -l yourlist.txt```
 
 ⚡ Example:
 
