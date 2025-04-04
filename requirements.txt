@@ -1,0 +1,4 @@
+requests
+colorama
+pystyle
+fake_useragent
