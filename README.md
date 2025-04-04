@@ -21,8 +21,3 @@ pip install -r requirements.txt
 - To scan a list of domains:
 ```python subrabbit.py -l yourlist.txt```
 
-⚡ Example:
-
-python subrabbit.py -t example.com
-
-The results will be saved in a file called found_example.com.txt.
